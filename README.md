@@ -17,8 +17,7 @@ The AI Customer Support Assistant is an intelligent software system designed to 
 9. Usage  
 10. Use Cases  
 11. Limitations  
-12. Future Enhancements  
-13. License  
+12. Future Enhancements
 
 ---
 
@@ -64,34 +63,19 @@ Backend Server
         |  Prompt Engineering + Context Handling
         v
 AI Model / Large Language Model API
+
 5. Technology Stack
-Frontend
-HTML
-
-CSS
-
-JavaScript
-
-React (optional)
-
-Backend
-Node.js / Python / Java
-
-Express / FastAPI / Spring Boot
+Frontend - React 
+Backend - Java Spring Boot 
 
 AI Integration
-OpenAI / Gemini / LLaMA / Mistral (configurable)
+Gemini / LLaMA / Mistral
 
 Tools and Platforms
 Git and GitHub
-
-npm / pip / Maven
-
 Postman for API testing
 
 6. Project Structure
-text
-Copy code
 AI-Customer-Support-Assistant/
 │
 ├── backend/
@@ -113,15 +97,9 @@ AI-Customer-Support-Assistant/
 └── .gitignore
 7. Installation and Setup
 Prerequisites
-Node.js / Python / Java installed
-
-npm / pip / Maven
-
+Java installed
 Git
-
 Clone the Repository
-bash
-Copy code
 git clone https://github.com/your-username/ai-customer-support-assistant.git
 cd ai-customer-support-assistant
 Install Dependencies
@@ -132,8 +110,8 @@ Start the Application
 bash
 Copy code
 npm start
-or
 
+or
 bash
 Copy code
 node server.js
@@ -201,9 +179,6 @@ Chat history storage with database integration
 Admin dashboard for monitoring conversations
 
 CRM and ticketing system integration
-
-13. License
-This project is licensed under the MIT License.
 
 Author
 Developed by Gowrisankar Baskar
